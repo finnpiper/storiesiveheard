@@ -5599,3 +5599,13 @@ div.flaggedrevs_short {
     clear: both
   }
 }
+
+@media (max-width:768px) {
+  html {
+    overflow-x: hidden;
+  }
+  #content.mw-body,
+  #left-navigation {
+    margin-left: 0;
+  }
+}
